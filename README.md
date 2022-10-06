@@ -16,6 +16,8 @@ avalanche --help
 
 ## run Docker image
 
+A 'latest' tag does not exist for this image, so use 'main' instead.
+
 ```bash
 docker run quay.io/promet
 docker run quay.io/prometheuscommunity/avalanche:main --help
